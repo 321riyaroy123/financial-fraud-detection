@@ -1,0 +1,30 @@
+# Ignore data and model folders
+data/
+datasets/
+models/
+checkpoints/
+
+# Ignore large files
+*.csv
+*.h5
+*.pkl
+*.joblib
+*.zip
+
+# Ignore system & environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+.DS_Store
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and cache
+logs/
+*.log
+.cache/
